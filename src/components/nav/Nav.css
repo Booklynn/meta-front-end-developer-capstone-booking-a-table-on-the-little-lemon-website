@@ -1,0 +1,33 @@
+nav {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+li:not(:first-child):not(:last-child) {
+    margin-right: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Logo img {
+    margin-right: 4rem;
+}
